@@ -9,12 +9,9 @@ import {
 import Contact from "./Contact";
 import Download from "./Download";
 import Languages from "./Languages";
-import Location from "./Location";
-import Tools from "./Tools";
-import Skills from "./Skills";
 import Image from "next/image";
 import { NAME, DESIGNATION, SOCIAL_LINKS } from "../../../constants/constants";
-import Nicholas from "../../../public/images/nicholas.jpg";
+import KevinG from "../../../public/images/kevin_g.jpg";
 
 const Intro = () => {
   return (
@@ -27,7 +24,7 @@ const Intro = () => {
         <Link href="/">
           <Image
             className="w-28 h-28 rounded-full"
-            src={Nicholas}
+            src={KevinG}
             alt="profile picture"
           />
         </Link>

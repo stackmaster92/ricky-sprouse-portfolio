@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
 
 const Banner = () => {
-  const str = `Senior full stack developer  | Effective Communicator`;
+  const str = `Senior Frontend Developer  | Effective Communicator`;
 
   return (
     <BannerLayout>
@@ -29,23 +29,19 @@ const Banner = () => {
               <div className="hidden sm:block">
                 <p className="xl:text-lg lg:base text-Green">
                   <span>
-                    - Builds secure, scalable backend systems and integrates
-                    cloud technologies seamlessly.
+                    - Builds secure, scalable frontend systems and integrates cloud technologies seamlessly.
                   </span>
                   <br />
                   <span>
-                    - Specializes in designing efficient, high-performance
-                    architectures for modern applications.
+                    - Specializes in designing efficient, high-performance frontend architectures for modern applications.
                   </span>
                   <br />
                   <span>
-                    - Focused on delivering quality solutions through teamwork,
-                    creativity, and improvement.
+                    - Focused on delivering quality solutions through teamwork, creativity, and continuous improvement.
                   </span>
                   <br />
                   <span>
-                    - Language expert with strong multilingual proficiency and
-                    cultural adaptability.
+                    - Effective communicator with strong multilingual proficiency and cultural adaptability.
                   </span>
                   <br />
                 </p>

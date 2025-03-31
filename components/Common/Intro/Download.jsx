@@ -3,7 +3,7 @@ const Download = ({ icon }) => {
   return (
     <>
       <Link
-        href="/nacholas.pdf"
+        href="/Kevin_Grijalva.pdf"
         target="_blank"
         className="flex flex-row text-LightGray items-center gap-x-4 pb-14 pt-4"
       >

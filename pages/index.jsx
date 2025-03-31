@@ -54,7 +54,7 @@ const Home = () => {
       {/* <Recommendations limit={2} /> */}
       {/* <ClientReviews /> */}
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

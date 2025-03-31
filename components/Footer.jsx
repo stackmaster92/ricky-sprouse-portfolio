@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="mr-1 text-base">
             <AiFillCopyrightCircle />
           </div>
-          <span>2024 All Rights Reserved.</span>
+          <span>2025 All Rights Reserved.</span>
         </div>
         <div className="flex items-center">
           <a
@@ -18,14 +18,14 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Made with ❤️ by <span className="font-bold">Nicholas</span>
+            Made with ❤️ by <span className="font-bold">Kevin</span>
           </a>
         </div>
         <div className="hidden md:flex items-center">
           <div className="mr-1 text-base">
             <MdMail />
           </div>
-          <div>nicholas.roverts.dev@gmail.com</div>
+          <div>kevin.grijalva.dev@gmail.com</div>
         </div>
       </div>
     </div>

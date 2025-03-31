@@ -1,6 +1,6 @@
-export const NAME = "Nicholas Roverts";
+export const NAME = "Kevin Grijalva";
 
-export const DESIGNATION = `Senior full stack developer  | Effective Communicator`;
+export const DESIGNATION = `Senior Frontend developer | Effective Communicator`;
 
 export const DETAILS = {
   Residence: "United State",
@@ -139,12 +139,12 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: "nicholas.roverts.dev@gmail.com",
-  PHONE: "+1 (484) 244-2527",
+  EMAIL: "kevin.grijalva.dev@gmail.com",
+  PHONE: "+1 (689)) 207-7251",
 };
 export const SOCIAL_LINKS = {
-  GITHUB: "https://github.com/nicholas",
-  LINKEDIN: "https://www.linkedin.com/in/nicholas/",
-  TWITTER: "https://twitter.com/nicholas",
-  FACEBOOK: "https://www.facebook.com/nicholas",
+  GITHUB: "https://github.com/kevin_g",
+  LINKEDIN: "https://www.linkedin.com/in/kevin_g/",
+  TWITTER: "https://twitter.com/kevin_g",
+  FACEBOOK: "https://www.facebook.com/kevin_g",
 };

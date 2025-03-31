@@ -2,17 +2,17 @@ import { Progress } from "antd";
 import { useEffect, useState } from "react";
 
 const Languages = () => {
-  const [german, setGerman] = useState(0);
+  // const [german, setGerman] = useState(0);
   const [english, setEnglish] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      if (german < 88) setGerman((prevCount) => prevCount + 1);
+      // if (german < 88) setGerman((prevCount) => prevCount + 1);
       if (english < 98) setEnglish((prevCount) => prevCount + 1);
     }, 30);
 
     return () => clearInterval(timer);
-  }, [german, english]);
+  }, [english]);
   return (
     <div className="flex flex-col space-y-1 pt-6">
       <div className="flex flex-col gap-y-4">
@@ -27,7 +27,7 @@ const Languages = () => {
             />
             <span className="text-sm font-bold text-Snow">English</span>
           </div>
-          <div className="flex flex-col items-center justify-center gap-y-2">
+          {/* <div className="flex flex-col items-center justify-center gap-y-2">
             <Progress
               strokeColor="#1fdf64"
               type="circle"
@@ -35,7 +35,7 @@ const Languages = () => {
               size={75}
             />
             <span className="text-sm font-bold text-Snow">German</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
