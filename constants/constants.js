@@ -140,7 +140,7 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: "kevin.grijalva.dev@gmail.com",
-  PHONE: "+1 (689)) 207-7251",
+  PHONE: "+1 (689) 207-7251",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin_g",
