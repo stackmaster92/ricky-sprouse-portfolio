@@ -1,6 +1,12 @@
 export const NAME = "Kevin Grijalva";
 
 export const DESIGNATION = `Senior Frontend developer | Effective Communicator`;
+export const POINTS = [
+  "Builds secure, scalable frontend systems and integrates cloud technologies seamlessly.",
+  "Specializes in designing efficient, high-performance frontend architectures for modern applications.",
+  "Focused on delivering quality solutions through teamwork, creativity, and continuous improvement.",
+  "Effective communicator with strong multilingual proficiency and cultural adaptability."
+];
 
 export const DETAILS = {
   Residence: "United State",
