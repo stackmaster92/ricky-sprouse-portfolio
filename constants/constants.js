@@ -1,118 +1,76 @@
-export const NAME = "Kevin Grijalva";
+export const NAME = "Ricky Sprouse";
 
-export const DESIGNATION = `Senior Frontend developer | Effective Communicator`;
+export const DESIGNATION = `Senior Full Stack Developer | Effective Communicator`;
 export const POINTS = [
-  "Builds secure, scalable frontend systems and integrates cloud technologies seamlessly.",
-  "Specializes in designing efficient, high-performance frontend architectures for modern applications.",
-  "Focused on delivering quality solutions through teamwork, creativity, and continuous improvement.",
+  "Builds secure, scalable full stack systems and integrates cloud technologies seamlessly.",
+  "Specializes in designing efficient, high-performance architectures for modern web applications.",
+  "Focused on delivering quality end-to-end solutions through teamwork, creativity, and continuous improvement.",
   "Effective communicator with strong multilingual proficiency and cultural adaptability."
 ];
 
 export const DETAILS = {
-  Residence: "",
-  City: "",
-  Age: "",
+  Country: "United States",
+  State: "South Carolina",
+  City: "Gaffney",
 };
 
 export const MAIN_SKILL_LIST = [
   {
-    title: "Frontend Architect",
+    title: "Full Stack JavaScript Developer (MERN)",
     level: "95%",
   },
   {
-    title: "Senior Software Engineer",
-    level: "85%",
-  },
-  {
-    title: "UI/UX & Web Performance Specialist",
-    level: "85%",
-  },
-  {
-    title: "JavaScript & TypeScript Expert",
+    title: "Frontend Architect & Performance Engineer",
     level: "90%",
   },
   {
-    title: "Version Control & Collaboration",
-    level: "92%",
+    title: "Senior Software Engineer",
+    level: "90%",
   },
   {
-    title: "Effective Communicator",
-    level: "95%",
+    title: "UI/UX & Web Accessibility Specialist",
+    level: "85%",
+  },
+  {
+    title: "Backend Development & API Integration",
+    level: "85%",
+  },
+  {
+    title: "Agile Development & Team Collaboration",
+    level: "90%",
   },
 ];
 
 
 export const SKILL_LIST = [
-  {
-    title: "JavaScript",
-    level: "95%",
-  },
-  {
-    title: "TypeScript",
-    level: "90%",
-  },
-  {
-    title: "ReactJS",
-    level: "95%",
-  },
-  {
-    title: "Next.js",
-    level: "90%",
-  },
-  {
-    title: "VueJS",
-    level: "85%",
-  },
-  {
-    title: "Node.js",
-    level: "80%",
-  },
-  {
-    title: "GraphQL",
-    level: "85%",
-  },
-  {
-    title: "Redux",
-    level: "90%",
-  },
-  {
-    title: "Zustand",
-    level: "80%",
-  },
-  {
-    title: "Tailwind CSS",
-    level: "90%",
-  },
-  {
-    title: "Material UI",
-    level: "85%",
-  },
-  {
-    title: "CSS/SASS",
-    level: "90%",
-  },
-  {
-    title: "Web Performance Optimization",
-    level: "85%",
-  },
-  {
-    title: "Testing (Jest, Cypress)",
-    level: "80%",
-  },
-  {
-    title: "Firebase",
-    level: "85%",
-  },
-  {
-    title: "Webpack & Vite",
-    level: "80%",
-  },
-  {
-    title: "CI/CD (Frontend Deployments)",
-    level: "75%",
-  },
+  { title: "JavaScript (ES6+)", level: "95%" },
+  { title: "TypeScript", level: "90%" },
+  { title: "React.js", level: "95%" },
+  { title: "Next.js", level: "90%" },
+  { title: "Vue.js", level: "85%" },
+  { title: "Redux", level: "90%" },
+  { title: "Zustand", level: "85%" },
+  { title: "React Query", level: "85%" },
+  { title: "Tailwind CSS", level: "90%" },
+  { title: "Material UI", level: "85%" },
+  { title: "SASS / CSS3", level: "90%" },
+  { title: "Node.js", level: "90%" },
+  { title: "Express.js", level: "85%" },
+  { title: "MongoDB", level: "90%" },
+  { title: "Mongoose", level: "85%" },
+  { title: "RESTful APIs", level: "90%" },
+  { title: "GraphQL", level: "85%" },
+  { title: "Git & GitHub / GitLab", level: "95%" },
+  { title: "Webpack / Vite", level: "85%" },
+  { title: "CI/CD Pipelines", level: "80%" },
+  { title: "Jest & React Testing Library", level: "85%" },
+  { title: "Cypress & End-to-End Testing", level: "80%" },
+  { title: "Vercel / Netlify", level: "85%" },
+  { title: "Firebase", level: "85%" },
+  { title: "Heroku / Render", level: "80%" },
+  { title: "Web Performance Optimization", level: "85%" },
+  { title: "Lighthouse / Core Web Vitals", level: "80%" },
 ];
-
 
 
 export const TECH_STACK = [
@@ -140,12 +98,13 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: "kevin.grijalva.dev@gmail.com",
-  PHONE: "+1 (689) 207-7251",
+  EMAIL: "Ricky1.dev77@gmail.com",
+  PHONE: "+1 (864) 490-4240",
 };
+
 export const SOCIAL_LINKS = {
-  GITHUB: "https://github.com/kevin_g",
-  LINKEDIN: "https://www.linkedin.com/in/kevin_g/",
-  TWITTER: "https://twitter.com/kevin_g",
-  FACEBOOK: "https://www.facebook.com/kevin_g",
+  GITHUB: "https://github.com/ricky",
+  LINKEDIN: "https://www.linkedin.com/in/ricky/",
+  TWITTER: "https://twitter.com/ricky",
+  FACEBOOK: "https://www.facebook.com/ricky",
 };

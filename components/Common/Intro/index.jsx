@@ -8,10 +8,10 @@ import {
 } from "react-icons/fa";
 import Contact from "./Contact";
 import Download from "./Download";
-import Languages from "./Languages";
+import Location from "./Location";
 import Image from "next/image";
 import { NAME, DESIGNATION, SOCIAL_LINKS } from "../../../constants/constants";
-import KevinG from "../../../public/images/kevin_g.jpg";
+import Ricky from "../../../public/images/ricky.jpg";
 
 const Intro = () => {
   return (
@@ -24,7 +24,7 @@ const Intro = () => {
         <Link href="/">
           <Image
             className="w-28 h-28 rounded-full"
-            src={KevinG}
+            src={Ricky}
             alt="profile picture"
           />
         </Link>
@@ -38,9 +38,9 @@ const Intro = () => {
 
       {/* middle components */}
       <div className="beech z-20 flex flex-col overflow-y-scroll pt-48 top-20 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
-        {/* <Location /> */}
+        <Location />
         <Contact />
-        <Languages />
+        {/* <Languages /> */}
         {/* <Skills />
         <Tools /> */}
         <Download icon={<FaDownload />} />

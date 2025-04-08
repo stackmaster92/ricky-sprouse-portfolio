@@ -18,14 +18,14 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Made with ❤️ by <span className="font-bold">Kevin</span>
+            Made with ❤️ by <span className="font-bold">Ricky</span>
           </a>
         </div>
         <div className="hidden md:flex items-center">
           <div className="mr-1 text-base">
             <MdMail />
           </div>
-          <div>kevin.grijalva.dev@gmail.com</div>
+          <div>Ricky1.dev77@gmail.com</div>
         </div>
       </div>
     </div>
