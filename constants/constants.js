@@ -9,30 +9,30 @@ export const POINTS = [
 ];
 
 export const DETAILS = {
-  Residence: "United State",
-  City: "Berlin",
-  Age: "23",
+  Residence: "",
+  City: "",
+  Age: "",
 };
 
 export const MAIN_SKILL_LIST = [
   {
-    title: "Backend Architect",
+    title: "Frontend Architect",
+    level: "95%",
+  },
+  {
+    title: "Senior Software Engineer",
+    level: "85%",
+  },
+  {
+    title: "UI/UX & Web Performance Specialist",
+    level: "85%",
+  },
+  {
+    title: "JavaScript & TypeScript Expert",
     level: "90%",
   },
   {
-    title: "Software Engineer",
-    level: "80%",
-  },
-  {
-    title: "Cloud Integration Specialist",
-    level: "80%",
-  },
-  {
-    title: "Frontend Developer",
-    level: "70%",
-  },
-  {
-    title: "Version control & Collabration",
+    title: "Version Control & Collaboration",
     level: "92%",
   },
   {
@@ -41,84 +41,79 @@ export const MAIN_SKILL_LIST = [
   },
 ];
 
+
 export const SKILL_LIST = [
   {
-    title: "Python",
-    level: "90%",
-  },
-  {
-    title: "Django",
-    level: "85%",
-  },
-  {
-    title: "Flask",
-    level: "85%",
-  },
-  {
-    title: "Javascript",
-    level: "90%",
-  },
-  {
-    title: "Typescript",
-    level: "70%",
-  },
-  {
-    title: "ReactJS",
-    level: "88%",
-  },
-  {
-    title: "VueJS",
-    level: "88%",
-  },
-  {
-    title: "NodeJs",
-    level: "92%",
-  },
-  {
-    title: "Express",
-    level: "92%",
-  },
-  {
-    title: "PHP",
-    level: "90%",
-  },
-  {
-    title: "Codeigniter",
-    level: "90%",
-  },
-  {
-    title: "Laravel",
+    title: "JavaScript",
     level: "95%",
   },
   {
-    title: "Tailwind",
-    level: "70%",
+    title: "TypeScript",
+    level: "90%",
   },
   {
-    title: "Material Ui",
-    level: "70%",
+    title: "ReactJS",
+    level: "95%",
   },
   {
-    title: "Mysql",
+    title: "Next.js",
+    level: "90%",
+  },
+  {
+    title: "VueJS",
+    level: "85%",
+  },
+  {
+    title: "Node.js",
     level: "80%",
-  },
-  {
-    title: "MongoDB",
-    level: "80%",
-  },
-  {
-    title: "Devops",
-    level: "75%",
-  },
-  {
-    title: "Firebase",
-    level: "75%",
   },
   {
     title: "GraphQL",
+    level: "85%",
+  },
+  {
+    title: "Redux",
+    level: "90%",
+  },
+  {
+    title: "Zustand",
     level: "80%",
   },
+  {
+    title: "Tailwind CSS",
+    level: "90%",
+  },
+  {
+    title: "Material UI",
+    level: "85%",
+  },
+  {
+    title: "CSS/SASS",
+    level: "90%",
+  },
+  {
+    title: "Web Performance Optimization",
+    level: "85%",
+  },
+  {
+    title: "Testing (Jest, Cypress)",
+    level: "80%",
+  },
+  {
+    title: "Firebase",
+    level: "85%",
+  },
+  {
+    title: "Webpack & Vite",
+    level: "80%",
+  },
+  {
+    title: "CI/CD (Frontend Deployments)",
+    level: "75%",
+  },
 ];
+
+
 
 export const TECH_STACK = [
   "JavaScript",

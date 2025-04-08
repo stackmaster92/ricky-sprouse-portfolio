@@ -17,7 +17,7 @@ const Nav = ({ setIsOpen, isOpen }) => {
           <ImCross />
         </div>
         <div className="flex flex-col gap-y-2 px-6 w-full transition">
-          {/* <NavItem
+          <NavItem
             setIsOpen={setIsOpen}
             NavRoute={"/"}
             NavIcon={<ImHome />}
@@ -46,7 +46,7 @@ const Nav = ({ setIsOpen, isOpen }) => {
             NavRoute={"/contact"}
             NavIcon={<FaHandshake />}
             NavText={"Contact"}
-          /> */}
+          />
         </div>
       </div>
     </DrawerLayout>
