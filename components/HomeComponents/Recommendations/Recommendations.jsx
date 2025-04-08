@@ -17,7 +17,7 @@ const Recommendations = ({ limit }) => {
       <div className="px-2 md:px-8 py-4 text-2xl font-bold text-Snow">
         My Working History
       </div>
-      <div className="grid w-full h-full mt-5 justify-items-start grid-flow-row md:grid-cols-2 grid-rows-auto gap-x-4 gap-y-4 px-2 md:px-8 pb-8">
+      <div className="flex flex-col w-full h-full mt-5 gap-y-4 px-2 md:px-8 pb-8">
         {isLoading
           ? [1, 2, 3, 4, 5].map((data, index) => (
               <ParagraphSkeleton
@@ -27,17 +27,21 @@ const Recommendations = ({ limit }) => {
             ))
           : data
               ?.slice(0, limit)
-              .map((data, key) => <RecommendationCard key={key} data={data} />)}
+              .map((data, key) => (
+                <div className="w-full" key={key}>
+                  <RecommendationCard data={data} />
+                </div>
+              ))}
       </div>
       {limit && (
         <div className="grid justify-center">
-          {/* <Link
+          <Link
             onClick={(e) => {}}
-            href={"/portfolio"}
+            href={"/work_history"}
             className={`transition flex items-center px-4 py-2 text-base font-semibold text-Green hover:text-SilverGray hover:bg-EveningBlack rounded-xl`}
           >
             Show More...
-          </Link> */}
+          </Link>
         </div>
       )}
     </>

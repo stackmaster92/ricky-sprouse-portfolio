@@ -1,50 +1,49 @@
-import { useState } from "react";
+import { useQuery } from "react-query";
+import axios from "axios";
+import { Skeleton } from "antd";
+
 import Edu_Card from "../components/Background/Edu_Card";
 import Exp_Card from "../components/Background/Exp_Card";
 import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
-import { useQuery } from "react-query";
-import axios from "axios";
-import { Skeleton } from "antd";
 import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
 
-function Background() {
-  const { isLoading, error, data } = useQuery("background", () =>
-    axios
-      .get("api/background")
-      .then(({ data }) => data)
-      .catch((error) => console.error("Error fetching testimonials:", error))
-  );
+const Background = () => {
+  const { isLoading, data } = useQuery("background", async () => {
+    const response = await axios.get("api/background");
+    return response.data;
+  });
+
+  const renderSkeletons = () =>
+    [1, 2, 3].map((_, index) => (
+      <ParagraphSkeleton key={index} className="p-8 w-full h-full" />
+    ));
 
   return (
     <BannerLayout>
       <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-Green px-4 pb-2 pt-10">
-        <div className="flex flex-col gap-y-4 order-2 md:order-1  md:mr-12">
-          <div className="mt-10 md:mt-0 text-xl text-Snow font-semibold">
+        {/* Education Section */}
+        <div className="flex flex-col gap-y-4 order-2 md:order-1 md:mr-12">
+          <h2 className="mt-10 md:mt-0 text-xl font-semibold text-Snow">
             Education
-          </div>
+          </h2>
           {isLoading
-            ? [1, 2, 3].map(() => (
-                <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
-              ))
-            : data &&
-              data[0]?.eduCards?.map((data, key) => (
-                <Edu_Card key={key} data={data} />
+            ? renderSkeletons()
+            : data?.[0]?.eduCards?.map((item, idx) => (
+                <Edu_Card key={idx} data={item} />
               ))}
         </div>
+
+        {/* Experience Section */}
         <div className="order-1 md:order-2">
           <div className="flex flex-col gap-y-4 md:ml-12">
-            <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">
+            <h2 className="pt-4 md:pt-0 text-xl font-semibold text-Snow">
               Experience
-            </div>
-
+            </h2>
             {isLoading
-              ? [1, 2, 3].map(() => (
-                  <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
-                ))
-              : data &&
-                data[1]?.expCards?.map((data, key) => (
-                  <Exp_Card key={key} data={data} />
+              ? renderSkeletons()
+              : data?.[1]?.expCards?.map((item, idx) => (
+                  <Exp_Card key={idx} data={item} />
                 ))}
           </div>
         </div>
@@ -52,6 +51,6 @@ function Background() {
       <Footer />
     </BannerLayout>
   );
-}
+};
 
 export default Background;
