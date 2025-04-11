@@ -15,7 +15,7 @@ const Recommendations = ({ limit }) => {
   return (
     <>
       <div className="px-2 md:px-8 py-4 text-2xl font-bold text-Snow">
-        My Working History
+        My Work History
       </div>
       <div className="flex flex-col w-full h-full mt-5 gap-y-4 px-2 md:px-8 pb-8">
         {isLoading
