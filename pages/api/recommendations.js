@@ -2,29 +2,29 @@
 const recommendationCard = [
   {
     id: 0,
-    name: "NorthLoop Labs",
+    name: "Voize",
     image: "images/emoji.png",
     designation: "Senior Full Stack Developer",
     view:
-      "I led the development of enterprise-grade applications using the MERN stack and TypeScript. I architected RESTful and GraphQL APIs, optimized MongoDB performance with indexing and Redis caching, and built scalable frontends with Next.js and Tailwind CSS. I also managed DevOps pipelines with Docker, GitHub Actions, and Vercel, while collaborating in an agile environment.",
+      "I led the development of enterprise-grade applications using the MERN stack and TypeScript. I architected and implemented both RESTful and GraphQL APIs, optimized database performance with MongoDB indexing and Redis caching, and built scalable frontend interfaces with Next.js and Tailwind CSS. I also managed DevOps workflows using Docker, GitHub Actions, and Vercel, collaborating with cross-functional teams in an agile setup.",
     linkednURL: "",
   },
   {
     id: 1,
-    name: "BrightField Tech",
+    name: "Waabi",
     image: "images/emoji.png",
     designation: "Senior Frontend Developer",
     view:
-      "I led the front-end development of a high-traffic web app using the MERN stack and TypeScript. I crafted reusable components with Next.js and Tailwind CSS, optimized performance with Vite and Webpack, and added animations using Framer Motion. I also maintained CI/CD workflows and enforced best practices in code quality.",
+      "I led the front-end development of a high-traffic web application using the MERN stack and TypeScript. I created scalable, reusable UI components with Next.js and Tailwind CSS, implemented smooth animations with Framer Motion, and boosted performance using code-splitting, lazy loading, and optimization strategies with Vite and Webpack. I also supported CI/CD pipelines with GitHub Actions and Docker.",
     linkednURL: "",
   },
   {
     id: 2,
-    name: "SkyVerge Systems",
+    name: "SkyVerge",
     image: "images/emoji.png",
     designation: "Senior Backend Developer",
     view:
-      "I developed scalable RESTful and GraphQL APIs using Express.js and MongoDB, and implemented WebSocket features for real-time functionality. I worked closely with React frontend teams and introduced custom monitoring solutions using Prometheus and Grafana.",
+      "I developed scalable RESTful and GraphQL APIs with Express.js and MongoDB. I added real-time features using WebSockets and collaborated with React and Zustand-based frontend teams. I also introduced custom logging and monitoring using Prometheus and Grafana.",
     linkednURL: "",
   },
   {
@@ -33,7 +33,7 @@ const recommendationCard = [
     image: "images/emoji.png",
     designation: "Full Stack Developer",
     view:
-      "I designed and built GraphQL and RESTful APIs using Express.js and MongoDB. I implemented real-time customer features via WebSocket and worked collaboratively with frontend developers to ensure seamless system integration.",
+      "I built RESTful and GraphQL APIs using Express.js and MongoDB, added WebSocket-based real-time functionality, and collaborated closely with frontend teams using React and Zustand. I also handled logging and server monitoring using Prometheus and Grafana.",
     linkednURL: "",
   },
   {
@@ -42,7 +42,7 @@ const recommendationCard = [
     image: "images/emoji.png",
     designation: "Frontend Developer",
     view:
-      "I contributed to a mobile-first e-commerce platform using React, Redux Toolkit, and Tailwind CSS. My work focused on optimizing site performance and creating pixel-perfect, responsive layouts using Next.js and Material UI.",
+      "I contributed to a mobile-first e-commerce platform using React, Redux Toolkit, and Tailwind CSS. I optimized site performance through lazy loading and server-side rendering in Next.js, and collaborated with UI/UX teams to maintain design consistency using Framer Motion and Material UI.",
     linkednURL: "",
   },
   {
@@ -51,7 +51,7 @@ const recommendationCard = [
     image: "images/emoji.png",
     designation: "Backend Developer",
     view:
-      "I built the backend for a real-time analytics dashboard using Node.js, GraphQL, and MongoDB. I developed subscription and onboarding features and integrated third-party APIs with caching using Redis.",
+      "I built a real-time analytics dashboard backend using Node.js, GraphQL, and MongoDB. I implemented features for onboarding and subscription management and integrated third-party APIs with Redis-based caching strategies.",
     linkednURL: "",
   },
   {
@@ -60,7 +60,7 @@ const recommendationCard = [
     image: "images/emoji.png",
     designation: "Full Stack Developer",
     view:
-      "I implemented new SaaS features with React, Redux, and Express.js, and collaborated with designers to maintain consistent UI using Tailwind CSS, Chakra UI, and Material UI. I also optimized build performance and managed deployments with Docker and Vercel.",
+      "I implemented new SaaS features using React, Redux, and Express.js with MongoDB. I worked closely with designers to maintain UI consistency using Tailwind CSS, Chakra UI, and Material UI. I also optimized frontend build processes with Webpack and managed deployments using Docker, Vercel, and Netlify.",
     linkednURL: "",
   },
 ];
