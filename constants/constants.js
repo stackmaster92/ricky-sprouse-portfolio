@@ -9,9 +9,7 @@ export const POINTS = [
 ];
 
 export const DETAILS = {
-  Country: "United States",
-  State: "South Carolina",
-  City: "Gaffney",
+  Location: "Gaffney, SC, USA",
 };
 
 export const MAIN_SKILL_LIST = [
