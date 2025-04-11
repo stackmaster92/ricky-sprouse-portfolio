@@ -1,11 +1,11 @@
 const portfolio = [
   {
     id: 10,
-    projectName: "ALSN Document Translation Platform",
-    url: "https://alsn.app/",
-    image: "projects/alsn.png",
+    projectName: "OMADA Secure Translation Platform",
+    url: "https://www.omadahealth.com/",
+    image: "projects/omada.png",
     projectDetail:
-      "Built a secure document translation platform using React.js and Tailwind CSS, integrated REST APIs and WebSocket for real-time updates.",
+      "Engineered a secure and scalable document translation platform using React.js and Tailwind CSS. Enabled real-time collaboration with WebSocket integration and optimized REST API performance for dynamic content delivery.",
     technologiesUsed: [
       { tech: "React.js" },
       { tech: "JavaScript (ES6+)" },
@@ -18,11 +18,11 @@ const portfolio = [
   },
   {
     id: 11,
-    projectName: "FirmSanad Licensing Automation System",
-    url: "/domain-expired",
-    image: "projects/firmsanad.png",
+    projectName: "Etched License Management System",
+    url: "https://www.etched.com/",
+    image: "projects/etched.png",
     projectDetail:
-      "Developed a licensing automation platform with VueJS and REST APIs, deployed on AWS Amplify with optimized Tailwind UI.",
+      "Developed a robust licensing automation system using VueJS and RESTful APIs. Deployed via AWS Amplify and designed with a responsive Tailwind CSS UI for seamless user experience.",
     technologiesUsed: [
       { tech: "VueJS" },
       { tech: "RESTful APIs" },
@@ -33,11 +33,11 @@ const portfolio = [
   },
   {
     id: 1,
-    projectName: "Hostinger High-Performance UI",
-    url: "https://hostinger.com/",
-    image: "projects/new/hostinger.png",
+    projectName: "Codametrix UI Architecture & CI/CD",
+    url: "https://codametrix.com/",
+    image: "projects/codametrix.png",
     projectDetail:
-      "Built high-performance UIs using React.js and Tailwind CSS, integrated CI/CD with GitHub Actions, and structured scalable architecture using Next.js and Redux.",
+      "Led UI development for Codametrix using React.js and Tailwind CSS with a scalable architecture in Next.js. Integrated CI/CD pipelines via GitHub Actions and implemented robust data flows with Redux and GraphQL.",
     technologiesUsed: [
       { tech: "JavaScript (ES6+)" },
       { tech: "TypeScript" },
@@ -59,11 +59,11 @@ const portfolio = [
   },
   {
     id: 6,
-    projectName: "Elvex Scalable Platform Development",
-    url: "https://www.elvex.com",
-    image: "projects/new/elvex.png",
+    projectName: "Rulai Platform Architecture",
+    url: "https://rul.ai",
+    image: "projects/rulai.png",
     projectDetail:
-      "Built scalable platforms using React.js, Material UI, and Tailwind CSS. Integrated GitHub workflows and REST APIs.",
+      "Built scalable user-facing platforms using React.js, Material UI, and Tailwind CSS. Streamlined API integrations and workflow automation with GitHub and RESTful services.",
     technologiesUsed: [
       { tech: "React.js" },
       { tech: "Material UI" },
@@ -77,11 +77,11 @@ const portfolio = [
   },
   {
     id: 2,
-    projectName: "HSBC Mobile Banking Features",
+    projectName: "HSBC Mobile Banking Enhancements",
     url: "https://www.hsbc.com/",
     image: "projects/new/hsbc.png",
     projectDetail:
-      "Engineered mobile-first banking features using React Native, Redux, Zustand, and integrated real-time features with WebSockets and RESTful APIs.",
+      "Developed advanced mobile banking features using React Native, Redux, and Zustand. Enabled real-time interactions with WebSockets and ensured secure API integration using RESTful services.",
     technologiesUsed: [
       { tech: "React.js" },
       { tech: "React Native" },
@@ -97,11 +97,11 @@ const portfolio = [
   },
   {
     id: 3,
-    projectName: "Matsuyama Marketing Page Development",
+    projectName: "Matsuyama Landing Page System",
     url: "https://matsuyama.co/",
     image: "projects/new/matsuyama.co.png",
     projectDetail:
-      "Created fully responsive marketing pages with Tailwind CSS and animations via Framer Motion; integrated APIs and deployed via CI/CD pipelines.",
+      "Created fully responsive, SEO-optimized marketing pages using Tailwind CSS and Framer Motion animations. Automated deployment pipelines using GitHub Actions.",
     technologiesUsed: [
       { tech: "JavaScript (ES6+)" },
       { tech: "Tailwind CSS" },
@@ -119,7 +119,7 @@ const portfolio = [
     url: "https://airbyte.com",
     image: "projects/new/airbyte.png",
     projectDetail:
-      "Developed eCommerce features with SSR in Next.js and managed state using Redux. Styled with Tailwind CSS and integrated RESTful APIs.",
+      "Engineered scalable eCommerce features using SSR with Next.js and Redux Toolkit. Integrated RESTful APIs and applied Tailwind CSS for modern UI design.",
     technologiesUsed: [
       { tech: "Next.js" },
       { tech: "RESTful APIs" },
@@ -134,11 +134,11 @@ const portfolio = [
   },
   {
     id: 7,
-    projectName: "Enterliminal Travel Booking System",
+    projectName: "Enterliminal Booking Experience",
     url: "https://enterliminal.com/",
     image: "projects/new/enterliminal.png",
     projectDetail:
-      "Designed and built travel booking UIs using Tailwind CSS, handled secure auth via AUTH0, and developed scalable backends using REST APIs.",
+      "Designed intuitive UIs for a travel booking platform using Tailwind CSS. Secured user access with AUTH0 and developed scalable backend systems via REST APIs.",
     technologiesUsed: [
       { tech: "Tailwind CSS" },
       { tech: "RESTful APIs" },
@@ -149,11 +149,11 @@ const portfolio = [
   },
   {
     id: 8,
-    projectName: "JMM ERP Enterprise Solution",
+    projectName: "JMM ERP Frontend Development",
     url: "https://jmmerp.com/",
     image: "projects/erp.png",
     projectDetail:
-      "Delivered enterprise-grade ERP frontends using Zustand and React Query, integrated with GraphQL APIs and styled using Tailwind CSS.",
+      "Delivered dynamic enterprise dashboards with Zustand and React Query. Integrated GraphQL APIs and designed scalable frontends using Tailwind CSS and React.js.",
     technologiesUsed: [
       { tech: "GraphQL (Apollo Client)" },
       { tech: "RESTful APIs" },
@@ -166,11 +166,11 @@ const portfolio = [
   },
   {
     id: 9,
-    projectName: "ABSCO Frontend Optimization",
+    projectName: "ABSCO UI Performance Optimization",
     url: "https://absco.sa/",
     image: "projects/absco.png",
     projectDetail:
-      "Optimized frontend experience with Tailwind CSS and built performant RESTful APIs with a lightweight backend setup.",
+      "Optimized the frontend experience through Tailwind CSS enhancements and implemented efficient REST APIs with a lightweight backend infrastructure.",
     technologiesUsed: [
       { tech: "RESTful APIs" },
       { tech: "Tailwind CSS" },
@@ -180,11 +180,11 @@ const portfolio = [
   },
   {
     id: 12,
-    projectName: "Firstrade Real-Time Trading Dashboard",
+    projectName: "Firstrade Real-Time Trading Platform",
     url: "https://www.firstrade.com/",
     image: "projects/new/firstrade.png",
     projectDetail:
-      "Built real-time trading dashboards with WebSockets and Redux, implemented secure auth and asynchronous data fetching using REST APIs and Firebase.",
+      "Built high-performance, real-time trading dashboards using WebSockets and Redux. Integrated Firebase for secure authentication and asynchronous data management.",
     technologiesUsed: [
       { tech: "React.js" },
       { tech: "Redux" },
