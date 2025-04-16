@@ -2,65 +2,65 @@
 const recommendationCard = [
   {
     id: 0,
-    name: "Voize",
-    image: "images/emoji.png",
+    name: "Anterior",
+    image: "images/companies/anterior.png",
     designation: "Senior Full Stack Developer",
     view:
-      "I led the development of enterprise-grade applications using the MERN stack and TypeScript. I architected and implemented both RESTful and GraphQL APIs, optimized database performance with MongoDB indexing and Redis caching, and built scalable frontend interfaces with Next.js and Tailwind CSS. I also managed DevOps workflows using Docker, GitHub Actions, and Vercel, collaborating with cross-functional teams in an agile setup.",
+      "I led the development of scalable web applications using Django REST Framework and Flask. I designed and implemented both RESTful and GraphQL APIs, improved backend performance through PostgreSQL indexing and Redis caching, and built modular frontend interfaces with React and Tailwind CSS. I also managed deployment pipelines using Docker, GitHub Actions, and Vercel, working closely with cross-functional teams in an agile environment using Jira and Notion.",
     linkednURL: "",
   },
   {
     id: 1,
-    name: "Waabi",
-    image: "images/emoji.png",
-    designation: "Senior Frontend Developer",
+    name: "BetterCommerce",
+    image: "images/companies/bettercommerce.png",
+    designation: "Senior Full Stack Developer",
     view:
-      "I led the front-end development of a high-traffic web application using the MERN stack and TypeScript. I created scalable, reusable UI components with Next.js and Tailwind CSS, implemented smooth animations with Framer Motion, and boosted performance using code-splitting, lazy loading, and optimization strategies with Vite and Webpack. I also supported CI/CD pipelines with GitHub Actions and Docker.",
+      "I developed dynamic UI components using React, seamlessly integrated with a Django backend. I optimized performance with Vite, lazy loading, server-side rendering (SSR), and animations using Framer Motion. I also implemented CI/CD pipelines with Docker and GitHub Actions, while leading efforts to improve UI/UX consistency and accessibility across the platform.",
     linkednURL: "",
   },
   {
     id: 2,
     name: "SkyVerge",
-    image: "images/emoji.png",
-    designation: "Senior Backend Developer",
+    image: "images/companies/skyverge.png",
+    designation: "Senior Full Stack Developer",
     view:
-      "I developed scalable RESTful and GraphQL APIs with Express.js and MongoDB. I added real-time features using WebSockets and collaborated with React and Zustand-based frontend teams. I also introduced custom logging and monitoring using Prometheus and Grafana.",
+      "I developed high-performance APIs using ASP.NET Core, utilizing Entity Framework and ASP.NET Web API for reliable backend services. I implemented WebSocket services for real-time data updates, integrated secure token-based authentication for enhanced security, and monitored system health using Prometheus and Grafana.",
     linkednURL: "",
   },
   {
     id: 3,
     name: "NovaForge",
-    image: "images/emoji.png",
+    image: "images/companies/novaforge.png",
     designation: "Full Stack Developer",
     view:
-      "I built RESTful and GraphQL APIs using Express.js and MongoDB, added WebSocket-based real-time functionality, and collaborated closely with frontend teams using React and Zustand. I also handled logging and server monitoring using Prometheus and Grafana.",
+      "I developed scalable applications using the MERN stack (MongoDB, Express, React, Node.js) and built real-time dashboards with React and Socket.IO. I designed backend logic using Django REST Framework (DRF), Flask, and SQL Server, optimizing system performance and ensuring seamless integration across the entire stack.",
     linkednURL: "",
   },
   {
     id: 4,
-    name: "PixelBase",
-    image: "images/emoji.png",
-    designation: "Frontend Developer",
+    name: "DriveNets",
+    image: "images/companies/driv.png",
+    designation: "Full Stack Developer",
     view:
-      "I contributed to a mobile-first e-commerce platform using React, Redux Toolkit, and Tailwind CSS. I optimized site performance through lazy loading and server-side rendering in Next.js, and collaborated with UI/UX teams to maintain design consistency using Framer Motion and Material UI.",
+      "I focused on frontend development using React, Redux, and Tailwind CSS, enhancing server-side rendering (SSR) with Next.js for better SEO and performance. I collaborated on maintaining consistent branding and user experience (UX) across the platform, integrating with Django for seamless functionality.",
     linkednURL: "",
   },
   {
     id: 5,
     name: "Fintrail",
-    image: "images/emoji.png",
-    designation: "Backend Developer",
+    image: "images/companies/fintrail.png",
+    designation: "Full Stack Developer",
     view:
-      "I built a real-time analytics dashboard backend using Node.js, GraphQL, and MongoDB. I implemented features for onboarding and subscription management and integrated third-party APIs with Redis-based caching strategies.",
+      "I built analytics and user management tools using ASP.NET Core, leveraging Entity Framework and Identity for secure login and role management. I created RESTful APIs with ASP.NET Web API and integrated them with third-party services. I also improved speed and performance by implementing Redis caching and optimizing code with asynchronous processing.",
     linkednURL: "",
   },
   {
     id: 6,
-    name: "DataScape",
-    image: "images/emoji.png",
+    name: "Knowtrex",
+    image: "images/companies/knowtrex.png",
     designation: "Full Stack Developer",
     view:
-      "I implemented new SaaS features using React, Redux, and Express.js with MongoDB. I worked closely with designers to maintain UI consistency using Tailwind CSS, Chakra UI, and Material UI. I also optimized frontend build processes with Webpack and managed deployments using Docker, Vercel, and Netlify.",
+      "I developed full-stack web applications using Django for the backend and React for the frontend. I containerized services with Docker to streamline deployment and ensure scalability across environments. I managed data consistency and optimized performance using PostgreSQL and MongoDB.",
     linkednURL: "",
   },
 ];

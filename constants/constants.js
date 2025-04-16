@@ -96,7 +96,7 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: "Ricky1.dev77@gmail.com",
+  EMAIL: "rickys.dev90@gmail.com",
   PHONE: "+1 (864) 490-4240",
 };
 
