@@ -63,6 +63,33 @@ const recommendationCard = [
       "I developed full-stack web applications using Django for the backend and React for the frontend. I containerized services with Docker to streamline deployment and ensure scalability across environments. I managed data consistency and optimized performance using PostgreSQL and MongoDB.",
     linkednURL: "",
   },
+  {
+    id: 7,
+    name: "AKKA",
+    image: "images/companies/akka.png",
+    designation: "Full Stack Developer",
+    view:
+      "I developed full-stack web applications using Django for the backend and React for the frontend, creating internal business tools and CMS-like solutions. I migrated legacy systems to modern web stacks, containerized services with Docker for streamlined deployment, and ensured scalability across environments. I also managed data consistency and optimized performance using PostgreSQL and MongoDB, collaborating closely with cross-functional teams to deliver client-focused solutions.",
+    linkednURL: "",
+  },
+  {
+    id: 8,
+    name: "Bloomfire",
+    image: "images/companies/bloomfire.png",
+    designation: "Full Stack Developer",
+    view:
+      "I supported the development of internal tools using C# and WinForms, focusing on creating efficient and user-friendly interfaces. I wrote and optimized stored procedures and complex SQL queries to improve database performance. Additionally, I participated in QA testing and bug fixing within an Agile environment, ensuring product stability and timely delivery.",
+    linkednURL: "",
+  },
+  {
+    id: 9,
+    name: "Netguru",
+    image: "images/companies/netguru.png",
+    designation: "Full Stack Developer",
+    view:
+      "I assisted in building websites using ASP.NET and JavaScript, contributing to dynamic and responsive user interfaces. I maintained and updated internal client dashboards to ensure accuracy and enhance user experience. Additionally, I learned the fundamentals of full-stack development and version control, laying a strong foundation for collaborative software development.",
+    linkednURL: "",
+  },
 ];
 
 export default function handler(req, res) {
